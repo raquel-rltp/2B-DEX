@@ -22,50 +22,27 @@ main {
     margin: 0 auto;
 }
 
-ul {
-    padding: 0px;
-    margin: 0px;
+.músicas{
+    text-align: center;
+}
+
+.indiv{
+    display: inline-block;
 }
 
 .rank {
+    display: inline-block;
     font-weight: bolder;
-    position: absolute;
+    position: relative;
+    left: 40px;
     font-family: "Bebas Neue", sans-serif;
     font-size: 4em;
     color: #A9445C;
     text-shadow: 
     -3px -3px 0px #000000, 
     -3px 3px 0px #000000,                    
-     3px -3px 0px #000000,                  
-     3px 2px 0px #000000;
-}
-
-#rank1 {
-    top: 26%;
-}
-
-#rank2 {
-    top: 26%;
-    left: 37%;
-}
-
-#rank3 {
-    top: 26%;
-    left: 62%; 
-}
-
-#rank4 {
-    top: 67%;
-}
-
-#rank5 {
-    top: 67%;
-    left: 37%;
-}
-
-#rank6 {
-    top: 67%;
-    left: 62%;
+    3px -3px 0px #000000,                  
+    3px 2px 0px #000000;
 }
 
 .músicas li {
@@ -134,6 +111,7 @@ ul {
 }
 
 .letra {
+    text-align: left;
     font-family: "Bebas Neue", sans-serif;
     font-size: 1.5em;
     display: inline-block;
@@ -141,6 +119,9 @@ ul {
     height: 300px;
     padding: 30px 0px 10px 10px;
     vertical-align: top;
+    margin: 24px 0 0;
+    line-height: 30px;
+    letter-spacing: 0.5px;
 }
 
 footer {
